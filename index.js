@@ -9,10 +9,8 @@ const http = require('http');
 const express = require('express');
 const bodyParser = require('body-parser');
 
-var googleTTS = require('google-tts-api');
-
-var fs = require('fs'),
-request = require('request');
+// var fs = require('fs'),
+// request = require('request');
 
 // const spawn = require("child_process").spawn;
 // const py = spawn('python', ['/Users/mahmed/Documents/GitHub/Accessbility-App/tts.py']);
@@ -65,7 +63,7 @@ slackEvents.on('message', (message, body) => {
   // Only deal with messages that have no subtype (plain messages) and contain 'hi'
   console.log(body);
 
-  if ((!message.subtype && message.text.indexOf('hi') >= 0) && message.user !== 'UBPPK0M5E') {
+  if ((!message.subtype && message.text.indexOf('hi') >= 0)) {
     // console.log('current info: ');
     // console.log(web.users.info);
     // Initialize a client

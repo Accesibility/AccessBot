@@ -1,0 +1,28 @@
+{
+  "name": "speechtotextaccess",
+  "version": "1.0.0",
+  "description": "Speech to text bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Accesibility/AccessBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Accesibility/AccessBot/issues"
+  },
+  "homepage": "https://github.com/Accesibility/AccessBot#readme",
+  "dependencies": {
+    "@aoberoi/passport-slack": "^1.0.5",
+    "@slack/client": "^4.3.1",
+    "@slack/events-api": "^1.0.1",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "passport": "^0.4.0"
+  }
+}
