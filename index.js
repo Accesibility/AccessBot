@@ -14,8 +14,8 @@ var googleTTS = require('google-tts-api');
 var fs = require('fs'),
 request = require('request');
 
-const spawn = require("child_process").spawn;
-const py = spawn('python', ['/Users/mahmed/Documents/GitHub/Accessbility-App/tts.py']);
+// const spawn = require("child_process").spawn;
+// const py = spawn('python', ['/Users/mahmed/Documents/GitHub/Accessbility-App/tts.py']);
 
 // *** Initialize event adapter using verification token from environment variables ***
 const slackEvents = slackEventsApi.createSlackEventAdapter(process.env.SLACK_VERIFICATION_TOKEN, {
